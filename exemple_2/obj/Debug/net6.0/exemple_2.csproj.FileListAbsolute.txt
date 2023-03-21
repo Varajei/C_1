@@ -1,0 +1,15 @@
+K:\Repo\C_1\exemple_2\bin\Debug\net6.0\exemple_2.exe
+K:\Repo\C_1\exemple_2\bin\Debug\net6.0\exemple_2.deps.json
+K:\Repo\C_1\exemple_2\bin\Debug\net6.0\exemple_2.runtimeconfig.json
+K:\Repo\C_1\exemple_2\bin\Debug\net6.0\exemple_2.dll
+K:\Repo\C_1\exemple_2\bin\Debug\net6.0\exemple_2.pdb
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.csproj.AssemblyReference.cache
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.GeneratedMSBuildEditorConfig.editorconfig
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.AssemblyInfoInputs.cache
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.AssemblyInfo.cs
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.csproj.CoreCompileInputs.cache
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.dll
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\refint\exemple_2.dll
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.pdb
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\exemple_2.genruntimeconfig.cache
+K:\Repo\C_1\exemple_2\obj\Debug\net6.0\ref\exemple_2.dll
