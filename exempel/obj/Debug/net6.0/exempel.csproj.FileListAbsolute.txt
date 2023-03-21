@@ -1,0 +1,15 @@
+K:\Repo\C_1\exempel\bin\Debug\net6.0\exempel.exe
+K:\Repo\C_1\exempel\bin\Debug\net6.0\exempel.deps.json
+K:\Repo\C_1\exempel\bin\Debug\net6.0\exempel.runtimeconfig.json
+K:\Repo\C_1\exempel\bin\Debug\net6.0\exempel.dll
+K:\Repo\C_1\exempel\bin\Debug\net6.0\exempel.pdb
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.csproj.AssemblyReference.cache
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.GeneratedMSBuildEditorConfig.editorconfig
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.AssemblyInfoInputs.cache
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.AssemblyInfo.cs
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.csproj.CoreCompileInputs.cache
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.dll
+K:\Repo\C_1\exempel\obj\Debug\net6.0\refint\exempel.dll
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.pdb
+K:\Repo\C_1\exempel\obj\Debug\net6.0\exempel.genruntimeconfig.cache
+K:\Repo\C_1\exempel\obj\Debug\net6.0\ref\exempel.dll
