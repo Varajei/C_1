@@ -93,30 +93,93 @@
 // // [1 2 3 4 5] -> 5 8 3
 // // [6 7 3 6] -> 36 21
 
-int[] FillArray(int length, int minValue, int maxValue)
-{
-    int[] result = new int[length];
-    Random rand = new Random();
-    for (int i = 0; i < length; i++)
-        result[i] = rand.Next(minValue, maxValue + 1);
-    return result;
-}
+// int[] FillArray(int length, int minValue, int maxValue)
+// {
+//     int[] result = new int[length];
+//     Random rand = new Random();
+//     for (int i = 0; i < length; i++)
+//         result[i] = rand.Next(minValue, maxValue + 1);
+//     return result;
+// }
 
-int[] GetNewArray(int[] array)
-{
-    int size = array.Length % 2 == 0 ? array.Length / 2 : (array.Length / 2) + 1;
-    int[] mult = new int[size];
+// Console.Write("Введите три числа (разделитель пробел): ");
+// int[] array = Console.ReadLine().Split(' ').Select(x => int.Parse(x)).ToArray();
 
-    for (int i = 0; i < mult.Length; i++)
-        mult[i] = array[i] * array[array.Length - 1 - i];
+// int[] GetNewArray(int[] array)
+// {
+//     int size = array.Length % 2 == 0 ? array.Length / 2 : (array.Length / 2) + 1;
+//     int[] mult = new int[size];
 
-    if (array.Length % 2 == 1) mult[size - 1] = array[array.Length / 2];
-    return mult;
-}
+//     for (int i = 0; i < mult.Length; i++)
+//         mult[i] = array[i] * array[array.Length - 1 - i];
+
+//     if (array.Length % 2 == 1) mult[size - 1] = array[array.Length / 2];
+//     return mult;
+// }
 
 
-int[] array = FillArray(5, 0, 10); // 5 это количество элементов массива
-Console.Clear();
-Console.WriteLine(string.Join(", ", array));
-Console.WriteLine(string.Join(", ", GetNewArray(array)));
+// int[] array = FillArray(5, 0, 10); // 5 это количество элементов массива
+// Console.Clear();
+// Console.WriteLine(string.Join(", ", array));
+// Console.WriteLine(string.Join(", ", GetNewArray(array)));
 
+
+// Задача 42: Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+// 45 -> 101101
+// 3  -> 11
+// 2  -> 10
+
+// Console.Write("Введите число: ");
+// int num = int.Parse(Console.ReadLine());
+// Console.Write("Введите основание системы исчисления: ");
+// int @base = int.Parse(Console.ReadLine());
+// Console.WriteLine(ChangeBase(num, @base));
+
+
+// string ChangeBase(int num, int @base)
+// {
+//     int[] array = new int[32];
+//     for (int i = 31; ; i--)
+//     {
+//         array[i] = num % @base;
+//         num /= @base;
+//         if (num == 0) break;
+//     }
+//     return String.Join("", array);
+// }
+
+// // вариант второй попроще 
+
+
+// static int setVal()
+// {   // ввод числа
+//     Console.Write("Введите число : ");
+//     return Convert.ToInt32(Console.ReadLine());
+// }
+
+// static int[] numToBinar(int num)
+// {
+//     int[] bin = new int[32];
+//     int i = 31;
+//     while (num > 0)
+//     {
+//         bin[i] = num % 2;
+//         num /= 2;
+//         i--;
+//     }
+//     return bin;
+// }
+
+// static void outputArray(int n, int[] arr)
+// {   // вывод массива случайных чисел
+//     string text = "[" + string.Join(", ", arr) + "]";
+//     Console.WriteLine(text);
+// }
+
+// static void Main(string[] str)
+// {
+//     //int number = setVal();
+//     //outputArray(32, numToBinar(number));
+//     outputArray(32, numToBinar(setVal()));
+
+// }
