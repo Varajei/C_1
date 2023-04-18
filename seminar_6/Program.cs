@@ -92,17 +92,18 @@
 //     return result;
 // }
 
-// // второй вариант int[] MyReverse1(int[] array)
-// // {
-// //     int[] reverse = new int[array.Length];
+// // второй вариант 
+// int[] MyReverse1(int[] array)
+// {
+//     int[] reverse = new int[array.Length];
 
-// //     for (int i = 0; i < array.Length; i++)
-// //     {
-// //         reverse[i] = array[array.Length - 1 - i];
-// //     }
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         reverse[i] = array[array.Length - 1 - i];
+//     }
 
-// //     return reverse;
-// // }
+//     return reverse;
+// }
 
 // int[] MyReverse1(int[] array)
 // {
@@ -118,3 +119,4 @@
 
 // Задача 40: Напишите программу, которая принимает на вход три числа и проверяет, может ли существовать треугольник с сторонами такой длины.
 // Теорема о неравенстве треугольника: каждая сторона треугольника меньше суммы двух других сторон.
+
